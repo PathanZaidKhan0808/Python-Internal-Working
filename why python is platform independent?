@@ -1,0 +1,17 @@
+Q2. Why is Python called Platform Independent?
+
+Answer (Same style as Q1)
+
+Python is called a platform-independent programming language because the byte code is platform 
+independent.
+
+When we write a Python program, the compiler first converts the source code (.py) into byte code (.pyc).
+
+This byte code is not dependent on any operating system. It can be used on different operating systems 
+like Windows, Linux, and macOS.
+
+On every operating system, the Python Virtual Machine (PVM) converts the same byte code into machine 
+code.
+
+Because the same byte code can run on different operating systems with the help of the PVM, Python is 
+called a platform-independent programming language.
