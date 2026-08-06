@@ -1,0 +1,19 @@
+Q1. How Python works internally?
+
+Answer : 
+
+Python works internally in two processes. The first process is the Compilation Process, and the second process is the Running Process.
+
+In the Compilation Process, the compiler first checks the syntax of the source code. If there are no syntax errors, it converts the source code into byte code.
+
+The extension of the source code is .py, and the extension of the byte code is .pyc.
+
+The byte code is platform independent. Here, platform means the operating system, such as Windows, Linux, or macOS.
+
+After that, the Running Process starts.
+
+In the Running Process, the Interpreter is responsible for executing the program. The Interpreter converts the byte code into machine code, which the computer understands.
+
+The Interpreter is also called the PVM (Python Virtual Machine) because it executes the byte code.
+
+Therefore, Python is called a compiled-interpreted programming language because it first compiles the source code into byte code and then interprets the byte code into machine code.
